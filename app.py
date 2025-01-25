@@ -29,7 +29,7 @@ def transform_text(text):
     return " ".join(text)
 
 st.title("SMS Spam Detection Model", anchor="title")
-st.markdown("<h2 style='color:#ff5733;'><I>SRIVARDHAN</I></h2>", unsafe_allow_html=True)
+
 
 st.sidebar.markdown("""
     <div style="background-color:#f7f7f7; padding: 10px;">
@@ -116,4 +116,6 @@ st.markdown("""
             background-color: #fafafa;
         }
     </style>
+    <div class="footer">
+    <h2>Made with 🖤 by <b><I>SRIVARDHAN</I></b></h2>
 """, unsafe_allow_html=True)
